@@ -1,3 +1,15 @@
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), default;
+}
+/*去掉底部hexo框架提示*/
+.framework-info{
+	display: none !important;
+}
+/*删掉“点击加入书签”按钮*/
 #bookmark-it {
 	display: none !important;
 }
